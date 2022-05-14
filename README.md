@@ -1,5 +1,6 @@
 # EADS
-Project created for **Algorithms &amp; Data Structures** classes at Warsaw University of Technology.
+Project created for **Algorithms &amp; Data Structures** classes at Warsaw University of Technology.  
+Most noteworthy is task 3 with AVL tree
 ## Lab 1
 **Create a Sequence class with template <typename Key, Typename Info> with the following methods:**
 - shallow and deep copy

@@ -261,7 +261,6 @@ private:
             }
             prev = root;
         }
-        print_tree();
         // no children case
         if (node->left == nullptr && node->right == nullptr)
         {

@@ -20,6 +20,7 @@ int main()
         cout << "3. Search for a word\n";
         cout << "4. Show the whole tree\n";
         cout << "5. Show the whole tree in order\n";
+        cout << "6. Quit.\n";
         
         cin >> choice;
         cin.ignore();
@@ -31,7 +32,7 @@ int main()
             newDictionary.insert("Mouse", "Here goes mouse definition.");
             newDictionary.insert("Laptop", "Here goes keyboard definition.");
             newDictionary.insert("PC", "Here goes PC definition.");
-            newDictionary.insert("UDP", "Here comes UDP definition.");
+            newDictionary.insert("UDP", "Here goes UDP definition.");
             break;
         case 1:
             cout << "\nEnter the word you wish to add: ";
@@ -55,7 +56,11 @@ int main()
             break;
         case 5:
             newDictionary.inorder_();
-            break;        
+            break;
+        case 6:
+            newDictionary.~Dictionary();
+            return EXIT_SUCCESS;
+            break;
         default:
             break;
         }
